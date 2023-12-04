@@ -1,0 +1,34 @@
+{
+  "name": "bing-maps-loader",
+  "version": "1.0.7",
+  "description": "Promise based Bing Maps JS Loader for websites ",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeja/bing-maps-loader.git"
+  },
+  "keywords": [
+    "Bing",
+    "Maps",
+    "Promise",
+    "Microsoft",
+    "Loader"
+  ],
+  "author": "Deeja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deeja/bing-maps-loader/issues"
+  },
+  "homepage": "https://github.com/deeja/bing-maps-loader#readme",
+  "dependencies": {
+    "bingmaps": "^2.0.3",
+    "typescript": "^4.0.5"
+  }
+}
